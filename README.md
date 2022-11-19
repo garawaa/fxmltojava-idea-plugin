@@ -5,7 +5,7 @@ This problem can be solved by converting fxml files to java code.
 For this purpose I implemented this small plugin.
 You also can freely use it.
 ## Build tools:
-Intellij IDE Community 2021.1.3
+Intellij IDE Community 2020.1.4
 JDK 8
 
 Thank you.

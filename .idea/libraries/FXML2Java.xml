@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FXML2Java">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/FXML2Java.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

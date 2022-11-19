@@ -1,0 +1,45 @@
+<idea-plugin>
+  <id>io.github.garawaa.fxml2java.plugin</id>
+  <name>FXML2Java</name>
+  <version>0.0.1</version>
+  <vendor email="garawaa@gmail.com" url="http://www.github.com/garawaa">garawaa</vendor>
+
+  <description><![CDATA[
+      This tool easily converts fxml file to java code.<br>
+      Right click on a fxml file.<br>
+      And select Convert FXML to Java Code menu item.<br>
+      In result it generates an abstract class for selected fxml file.<br>
+      Then you need create a class by extending it. <br>
+      Once created your class use it insteed of fxml load.<br>
+      Currently until intellij 2020.2 versions only supported.<br>
+      <em>For more info please visit project github repo.</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Initial release.<br>
+      There maybe bugs.<br>
+      <em>version 0.0.1</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="143.0" until-build="202.*"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="io.github.garawaa.fxml2java.plugin.MenuHandleAction"
+            class="io.github.garawaa.fxml2java.plugin.MenuHandleAction" text="Convert FXML to Java Code"
+            description="This command converts selected fxml file to java  abstract class">
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="AnalyzeMenu"/>
+    </action>
+  </actions>
+
+</idea-plugin>

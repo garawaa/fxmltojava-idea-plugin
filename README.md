@@ -4,4 +4,8 @@ Sometimes you may meet trouble with fxml files like me. For example fxml based j
 This problem can be solved by converting fxml files to java code.
 For this purpose I implemented this small plugin.
 You also can freely use it.
+## Build tools:
+Intellij IDE Community 2021.1.3
+JDK 8
+
 Thank you.

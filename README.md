@@ -10,7 +10,7 @@ Install it File->Settings->Plugins->Install from disk
 ## Usage
 Once you generated java class, create a new class and extend it from generated java class. Use your created class insteed of fxml load.
 
-## Build tools:
+## Built tools:
 Intellij IDE Community 2020.1.4
 JDK 8
 
